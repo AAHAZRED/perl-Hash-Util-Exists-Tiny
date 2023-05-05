@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Hash::Util::Exists::Tiny - Some hash helper functions related to perl's exists function.
+Hash::Util::Exists::Tiny - Some hash helper functions related to perl's "exists" function.
 
 
 =head1 VERSION
@@ -83,7 +83,7 @@ or
 
 =head1 DESCRIPTION
 
-This module provides some functionality for hashes, related to perl's
+This module provides some funtions for hashes, related to perl's
 C<exists> function. All functions are exported on demand, you can use tag
 C<:all> to export all functions at once.
 
@@ -105,12 +105,10 @@ otherwise false. Example:
 Returns the list of entries of C<LIST> that are keys in C<HASH_REF>. Note that
 duplicate keys in C<LIST> are also duplicate in the result.
 
-
 =item C<num_exists HASH_REF [, LIST]>
 
 Returns the number of entries in C<LIST> that are keys in C<HASH_REF>.  Note
 that duplicate entries are counted twice.
-
 
 =item C<defined_one_of HASH_REF [, LIST]>
 
@@ -125,7 +123,6 @@ Like C<list_exists>, but looks for defined values.
 Like C<num_exists>, but looks for defined values.
 
 =back
-
 
 
 
@@ -176,7 +173,8 @@ L<https://github.com/AAHAZRED/perl-Hash-Util-Exists-Tiny.git>
 
 This software is Copyright (c) 2021 by Abdul al Hazred.
 
-This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language system itself.
+This is free software; you can redistribute it and/or modify it under the same
+terms as the Perl 5 programming language system itself.
 
 
 =cut
