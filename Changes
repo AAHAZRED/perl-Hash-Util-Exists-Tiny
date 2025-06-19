@@ -1,6 +1,9 @@
 Revision history for Hash-Util-Exists-Tiny
 
-1.012   025/06/19
+x.yz    YYYY/MM/DD
+        Fixed typo in changelog
+
+1.01    2025/06/19
         Replaced existing SECURITY.md with the one created by Software::Security::Policy.
 
 1.00    2025/06/19
