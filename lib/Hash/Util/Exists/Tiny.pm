@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 
 use Exporter 'import';
 
-our $VERSION = '0.08';
+our $VERSION = '1.00';
 
 
 our @EXPORT_OK   = qw(exists_one_of  list_exists  num_exists
@@ -58,7 +58,7 @@ Hash::Util::Exists::Tiny - Some hash helper functions related to perl's "exists"
 
 =head1 VERSION
 
-Version 0.08
+Version 1.00
 
 
 =head1 SYNOPSIS

@@ -1,5 +1,8 @@
 Revision history for Hash-Util-Exists-Tiny
 
+1.00    2025/06/19
+        Increased major version to resolve pause/cpan indexing problem.
+
 0.08    2025/06/19
         POD: minor fix
         Optimized functions
