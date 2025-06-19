@@ -1,7 +1,7 @@
 Revision history for Hash-Util-Exists-Tiny
 
 x.yz    YYYY/MM/DD
-        Fixed typo in changelog
+        Fixed typo in changelog and in POD.
 
 1.01    2025/06/19
         Replaced existing SECURITY.md with the one created by Software::Security::Policy.

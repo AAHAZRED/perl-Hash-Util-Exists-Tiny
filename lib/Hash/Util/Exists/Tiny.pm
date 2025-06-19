@@ -81,7 +81,7 @@ This module provides some funtions for hashes, related to perl's
 C<exists> function. All functions are exported on demand, you can use tag
 C<:all> to export all functions at once.
 
-The functions do not perform parameter checks
+The functions do not perform parameter checks.
 
 
 =head2 FUNCTIONS
