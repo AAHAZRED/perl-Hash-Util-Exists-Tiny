@@ -1,5 +1,9 @@
 Revision history for Hash-Util-Exists-Tiny
 
+0.08    2025/06/19
+        POD: minor fix
+        Optimized functions
+
 0.07    2023/05/05
         POD: minor fix
 
