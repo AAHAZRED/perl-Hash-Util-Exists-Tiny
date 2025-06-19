@@ -11,7 +11,7 @@ my $PM_File = catfile(qw(lib Hash Util Exists Tiny.pm));
 open(my $h, '<', $PM_File);
 my $Version;
 foreach my $line (<$h>) {
-  if ($line =~ /^our\s+\$VERSION\s+.*?["'](v[^"']+)["']/) {
+  if ($line =~ /^our\s+\$VERSION\s+.*?["']([^"']+)["']/) {
     $Version = $1;
     last;
   }
@@ -52,7 +52,7 @@ my %WriteMakefileArgs = (
         'Test::More' => '0',
     },
     PREREQ_PM => {
-        Exporter => '1.9402'
+        Exporter => '1.9402',
         strict   => '0',
         warnings => '0',
     },
