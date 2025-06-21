@@ -7,6 +7,7 @@ use File::Spec::Functions;
 use autodie;
 
 my $PM_File = catfile(qw(lib Hash Util Exists Tiny.pm));
+my $Module_Name = 'Hash::Util::Exists::Tiny';
 
 open(my $h, '<', $PM_File);
 my $Version;
@@ -20,7 +21,7 @@ close($h);
 die("VERSION not found in $PM_File") if !$Version;
 
 my %WriteMakefileArgs = (
-    NAME             => 'Hash::Util::Exists::Tiny',
+    NAME             => $Module_Name,
     AUTHOR           => q{Abdul al Hazred <451@gmx.eu>},
     VERSION_FROM     => 'lib/Hash/Util/Exists/Tiny.pm',
     ABSTRACT_FROM    => 'lib/Hash/Util/Exists/Tiny.pm',
@@ -43,9 +44,9 @@ my %WriteMakefileArgs = (
             },
 
         },
-                   provides => { 'Text::Table::Read::RelationOn::Tiny' => {file => $PM_File,
-                                                                           version => $Version
-                                                               },
+                   provides => { $Module_Name => { file    => $PM_File,
+                                                   version => $Version
+                                                 },
                     },
     },
     TEST_REQUIRES => {
